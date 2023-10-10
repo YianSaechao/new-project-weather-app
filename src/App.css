@@ -1,0 +1,97 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+   
+}
+
+.App {
+  background: linear-gradient(to bottom, #55928a, #748591);
+  box-shadow: 15px 15px 15px  rgb(14, 156, 203); 
+}
+ 
+.current-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input {
+  border: none;
+  outline: 0;
+  padding: 10px 25px;
+  font-size: 20px;
+  background-color: #ddeff5;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+button {
+  width: 60px;
+  margin-left: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.current-weather-info .icon {
+  margin-top: 10px;
+  width: 170px;
+}
+.current-weather-info h1 {
+  font-size: 70px;
+  font-weight: 400;
+  margin-top: -40px;
+}
+.current-weather-info h2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: -40px;
+}
+.current-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  margin-top: 50px;
+}
+.details .col {
+  width: 45px;
+  margin-right: 10px;
+}
+.humidity .wind {
+  font-size: 20px;
+}
+.humidity p .wind {
+  margin: 0px
+}
+
+.Forecast-Div1 {
+  display: flex;
+  align-items: centers;
+  justify-content: start;
+
+}
+.Forecast-Div3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+.Forecast-Day {
+  margin: 40px; 
+  padding: 40px; 
+  border: 1px solid #ccc; 
+  box-shadow: 5px 5px 5px   rgb(33, 82, 97);
+}
+.hourly-div1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+.hourly-div2 {
+  display: flex;
+  flex-direction: column;
+  align-content: space-evenly;
+}
